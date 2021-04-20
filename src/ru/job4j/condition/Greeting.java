@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class Greeting {
-    @SuppressWarnings("checkstyle:WhitespaceAround")
     public static void main(String[] args) {
         String idea;
         idea = "I like Java";
