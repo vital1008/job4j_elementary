@@ -6,7 +6,6 @@ public class PointEq {
         boolean edY = y1 == y2;
         return edX && edY;
     }
-}
     public static void main(String[] args) {
         System.out.println(ed(1,1,2,2));
         System.out.println(ed(10,10,10,10));
