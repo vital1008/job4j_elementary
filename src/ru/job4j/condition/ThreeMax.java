@@ -5,20 +5,20 @@ public class ThreeMax {
         int result = first;
         if (first > second && first > third) {
             result = first;
-            if (second > first && second > third) {
-                result = second;
-                if (third > first && third > second) {
-                    result = third;
-                }
-            }
-            return result;
         }
+        if (second > first && second > third) {
+            result = second;
+        }
+        return result;
     }
 
     public static void main(String[] args) {
-        max(10, 5, 1);
+        System.out.println(max(10, 8, 3));
     }
 }
+
+
+
 
 
 
